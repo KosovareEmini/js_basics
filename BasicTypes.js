@@ -18,7 +18,9 @@
     string: Represents a sequence of characters enclosed in single or double quotes.​
     symbol (ES6): Represents unique and immutable values, often used as object property keys.
 */
+/* let, const, var */
 let myNumber = 1;
+let myFloatNumber = 3.1415;
 let myString = "The quick brown fox jumps over the lazy dog";
 let myBoolean = true || false; // || is the logical OR operator; other logical operators are: && logical AND and ! logical NOT;
 
