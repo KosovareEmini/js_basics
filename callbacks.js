@@ -16,7 +16,6 @@ function simulateAsyncOperation(callback) {
     console.log("Async operation complete");
     callback(); // Invoke the callback function
   }, 2000); // Simulate a 2-second delay
-  console.log('something');
 }
 
 // Callback function to be executed after the async operation
@@ -36,7 +35,6 @@ console.log("End of the program");
 /*
 The result will be:
     Start of the program
-    something
     End of the program
     Async operation complete
     Callback executed
