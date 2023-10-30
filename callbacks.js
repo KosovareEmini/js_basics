@@ -34,8 +34,8 @@ console.log("End of the program");
 
 /*
 The result will be:
-    Start of the program
-    End of the program
-    Async operation complete
-    Callback executed
+    "Start of the program"
+    "End of the program"
+    "Async operation complete"
+    "Callback executed"
 */
