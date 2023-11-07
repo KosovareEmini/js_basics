@@ -34,17 +34,24 @@ function myFunction() {
 }
 
 /* Function Execution Statement */
-myFunction();
-
-/**
- * Loops
- *** structures that allow you to repeat a block of code multiple times until a certain condition is met. ***
+/* Functions
+ *** reusable blocks of code that can be defined once and executed (invoked) multiple times. ***
  */
+
+let myArrowFunction = () => {
+    //code block to be executed
+
+};
+
+(function() {});
 
 /* Basic for Loop Declaration Statement */
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
 }
+ for(let i=0; i < 10; i++) {
+    //code block to be exectued
+ }
 
 /**
  * Conditionals
